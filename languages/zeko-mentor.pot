@@ -1,0 +1,2499 @@
+# Copyright (C) 2026 Zeko Team
+# This file is distributed under the GNU General Public License v2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: zeko-mentor 1.3.1\n"
+"Report-Msgid-Bugs-To: https://zeko.io\n"
+"POT-Creation-Date: 2026-09-25 08:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Zeko Team\n"
+"X-Domain: zeko-mentor\n"
+"X-Generator: zeko make-pot\n"
+
+#: templates/mentor-browse.php:66 templates/mentor-profile.php:58
+msgid " profile photo"
+msgstr ""
+
+#. translators: %s: session topic
+#: includes/class-zeko-mentor-notifications.php:141
+#, php-format
+msgid "\"%s\" has been marked as completed."
+msgstr ""
+
+#. translators: 1: mentee name, 2: session topic, 3: date
+#: includes/class-zeko-mentor-notifications.php:71
+#, php-format
+msgid "%1$s booked \"%2$s\" on %3$s."
+msgstr ""
+
+#. translators: 1: canceller name, 2: session topic
+#: includes/class-zeko-mentor-notifications.php:107
+#, php-format
+msgid "%1$s cancelled \"%2$s\"."
+msgstr ""
+
+#. translators: 1: member name, 2: program title
+#: includes/public/class-zeko-mentor-ajax.php:860
+#, php-format
+msgid "%1$s joined your program \"%2$s\"."
+msgstr ""
+
+#. translators: 1: reviewer name, 2: rating
+#: includes/class-zeko-mentor-notifications.php:182
+#, php-format
+msgid "%1$s left a %2$d-star review."
+msgstr ""
+
+#. translators: 1: member name, 2: program title
+#: includes/public/class-zeko-mentor-ajax.php:931
+#, php-format
+msgid "%1$s left your program \"%2$s\"."
+msgstr ""
+
+#. translators: %d: number of days
+#: includes/public/class-zeko-mentor-ajax.php:1254
+#, php-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of hours
+#: includes/public/class-zeko-mentor-ajax.php:1258
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of available mentors
+#: templates/mentor-browse.php:52
+#, php-format
+msgid "%d mentors available"
+msgstr ""
+
+#. translators: %d: number of minutes
+#: includes/public/class-zeko-mentor-ajax.php:1262
+#, php-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of months
+#: includes/public/class-zeko-mentor-ajax.php:1250
+#, php-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of unread notifications
+#: includes/class-zeko-mentor-ecosystem.php:817
+#, php-format
+msgid "%d unread notification"
+msgid_plural "%d unread notifications"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of years
+#: includes/public/class-zeko-mentor-ajax.php:1246
+#, php-format
+msgid "%d year ago"
+msgid_plural "%d years ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of sessions
+#: includes/class-zeko-mentor-matching.php:233
+#, php-format
+msgid "%d+ sessions completed"
+msgstr ""
+
+#. translators: %s: mentee name
+#: includes/class-zeko-mentor-notifications.php:220
+#, php-format
+msgid "%s accepted your match suggestion."
+msgstr ""
+
+#. translators: %s: hourly rate with currency
+#: templates/mentor-profile.php:227
+#, php-format
+msgid "%s per session · pick a date and time"
+msgstr ""
+
+#. translators: %s: site name
+#: includes/public/class-zeko-mentor-public.php:303
+#, php-format
+msgid "%s — Mentorship Sessions"
+msgstr ""
+
+#: templates/mentor-apply.php:147
+msgid "(optional)"
+msgstr ""
+
+#: templates/mentor-apply.php:51
+msgid "(short tagline shown on your profile)"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1183
+msgid "10 demo mentee accounts (demo_mentee_1 through demo_mentee_10)"
+msgstr ""
+
+#: templates/mentor-browse.php:44
+msgid "4+ Stars"
+msgstr ""
+
+#: templates/mentor-browse.php:45
+msgid "4.5+ Stars"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1182
+msgid "5 demo mentor accounts (demo_mentor_1 through demo_mentor_5)"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1189
+msgid "A demo mentorship program with enrolled mentees"
+msgstr ""
+
+#: templates/mentor-profile.php:164
+msgid "A focused conversation without the video."
+msgstr ""
+
+#: templates/mentor-profile.php:135
+msgid "About"
+msgstr ""
+
+#: templates/program-single.php:82
+msgid "About this program"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:271
+#: includes/class-zeko-mentor-ecosystem.php:384 templates/mentor-matches.php:67
+msgid "Accept"
+msgstr ""
+
+#: templates/mentor-matches.php:34
+msgid "Accept or dismiss these mentor matches based on your goals."
+msgstr ""
+
+#: templates/mentor-matches.php:80 templates/mentor-matches.php:89
+msgid "Accepted"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1010
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:210
+#: includes/admin/class-zeko-mentor-admin.php:261
+#: includes/admin/class-zeko-mentor-admin.php:509
+#: includes/privacy/class-zeko-mentor-privacy.php:194
+#: includes/privacy/class-zeko-mentor-privacy.php:260
+msgid "Active"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:165
+msgid "Active Goals"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:307
+msgid "Active Mentees"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:298
+msgid "Active Mentors"
+msgstr ""
+
+#: templates/program-single.php:142
+msgid "Active member"
+msgstr ""
+
+#: templates/mentor-availability.php:30
+msgid "Add Slot"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:814
+msgid "Added to cart. Complete checkout to enroll."
+msgstr ""
+
+#: templates/mentor-calendar.php:29
+msgid ""
+"Adds this feed to your calendar app (Google Calendar, Outlook, Apple "
+"Calendar)"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:597
+#: includes/admin/class-zeko-mentor-admin.php:764
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:374
+#: includes/admin/class-zeko-mentor-admin.php:508
+#: templates/mentor-browse.php:32
+msgid "All"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:499
+msgid "All Areas"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1037
+msgid "All Verified Applications"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1134
+#: includes/public/class-zeko-mentor-ajax.php:1603
+msgid "All demo data cleared."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1231
+msgid "All marked as read."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:408
+#: includes/privacy/class-zeko-mentor-privacy.php:346
+#: templates/session-detail.php:94
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:139
+#: includes/admin/class-zeko-mentor-admin.php:140
+msgid "Analytics"
+msgstr ""
+
+#: templates/mentor-browse.php:40 templates/mentor-browse.php:43
+msgid "Any"
+msgstr ""
+
+#. translators: %s: application status
+#: includes/public/class-zeko-mentor-ajax.php:1157
+#, php-format
+msgid "Application %s."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1097
+msgid "Application submitted! We will review it shortly."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:148
+#: includes/admin/class-zeko-mentor-admin.php:149
+msgid "Applications"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1009
+msgid "Applied"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1025
+msgid "Approve"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:109
+msgid "Are you sure?"
+msgstr ""
+
+#: templates/mentor-apply.php:56
+msgid "Areas of Expertise"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:126
+msgid "As Mentee"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:125
+msgid "As Mentor"
+msgstr ""
+
+#: templates/mentor-profile.php:169
+msgid "Asynchronous support through the built-in inbox."
+msgstr ""
+
+#: templates/mentor-profile.php:233
+msgid "Audio"
+msgstr ""
+
+#: templates/mentor-profile.php:163 templates/mentor-profile.php:261
+msgid "Audio Only"
+msgstr ""
+
+#: templates/mentor-apply.php:132
+msgid "Audio Rate"
+msgstr ""
+
+#: templates/mentor-profile.php:290 zeko-mentor.php:452
+msgid "Availability"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:520
+msgid "Availability saved."
+msgstr ""
+
+#: templates/mentor-profile.php:119
+msgid "Average Rating"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:218
+#: includes/class-zeko-mentor-ecosystem.php:137
+#: includes/class-zeko-mentor-ecosystem.php:303
+msgid "Avg Rating"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:716 templates/mentor-apply.php:44
+#: zeko-mentor.php:440
+msgid "Become a Mentor"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1007
+#: includes/privacy/class-zeko-mentor-privacy.php:146
+msgid "Bio"
+msgstr ""
+
+#: templates/mentor-apply.php:68
+msgid "Bio / About You"
+msgstr ""
+
+#: templates/mentor-profile.php:267
+msgid "Book Session"
+msgstr ""
+
+#: templates/mentor-profile.php:226 templates/mentor-profile.php:273
+msgid "Book a Session"
+msgstr ""
+
+#: templates/mentor-matches.php:100
+msgid "Browse Mentors"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:488
+msgid "Browse Programs"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:501 templates/mentor-apply.php:19
+#: templates/mentor-browse.php:34
+msgid "Business"
+msgstr ""
+
+#: zeko-mentor.php:456
+msgid "Calendar"
+msgstr ""
+
+#: templates/session-detail.php:146
+msgid "Cancel Session"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:378
+#: includes/admin/class-zeko-mentor-admin.php:922
+msgid "Cancelled"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:456
+msgid "Cannot review this session."
+msgstr ""
+
+#: templates/mentor-browse.php:37
+msgid "Career"
+msgstr ""
+
+#: templates/program-single.php:201
+msgid "Changed your mind? Leaving refunds your program fee if paid."
+msgstr ""
+
+#: templates/mentor-profile.php:168 templates/mentor-profile.php:234
+#: templates/mentor-profile.php:262
+msgid "Chat"
+msgstr ""
+
+#: templates/mentor-apply.php:136
+msgid "Chat Rate"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:696
+msgid "Cleanup Old Notifications"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1142
+#: includes/admin/class-zeko-mentor-admin.php:1171
+#: includes/admin/class-zeko-mentor-admin.php:1174
+msgid "Clear Demo Data"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1128
+msgid "Clearing..."
+msgstr ""
+
+#: templates/session-detail.php:118
+msgid "Click to select and copy"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:511
+msgid "Closed"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:377
+#: includes/admin/class-zeko-mentor-admin.php:918
+msgid "Completed"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:599
+msgid "Completed at"
+msgstr ""
+
+#. translators: 1: mentor/mentee name, 2: session topic
+#: includes/class-zeko-mentor-ecosystem.php:533
+#, php-format
+msgid "Completed mentorship session \"%1$s\" with %2$s"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:376
+msgid "Confirmed"
+msgstr ""
+
+#: includes/class-zeko-mentor-emails.php:197
+msgid "Congratulations — goal achieved!"
+msgstr ""
+
+#: includes/class-zeko-mentor-notifications.php:244
+msgid ""
+"Congratulations! Your mentor application has been approved. You can now "
+"start accepting sessions."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:673
+msgid "Control which events generate in-app notifications for users."
+msgstr ""
+
+#: templates/mentor-inbox.php:12
+msgid "Conversations"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:214
+#: includes/privacy/class-zeko-mentor-privacy.php:264
+#: includes/privacy/class-zeko-mentor-privacy.php:362
+#: includes/privacy/class-zeko-mentor-privacy.php:409
+#: includes/privacy/class-zeko-mentor-privacy.php:448
+#: includes/privacy/class-zeko-mentor-privacy.php:500
+#: includes/privacy/class-zeko-mentor-privacy.php:552
+#: includes/privacy/class-zeko-mentor-privacy.php:658
+#: includes/privacy/class-zeko-mentor-privacy.php:733
+msgid "Created at"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1164
+msgid ""
+"Creates 5 mentors, 10 mentees, and sample sessions, goals, reviews, and more."
+msgstr ""
+
+#: templates/mentor-apply.php:29
+msgid "Creative"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:186
+#: includes/privacy/class-zeko-mentor-privacy.php:350
+#: includes/privacy/class-zeko-mentor-privacy.php:717
+#: templates/mentor-apply.php:116
+msgid "Currency"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:705
+msgid "Current members"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:777
+msgid "Database Version"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:314
+#: templates/mentor-profile.php:244 templates/session-detail.php:71
+msgid "Date"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:403
+msgid "Date & Time"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:545
+msgid "Dates"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:244
+msgid "Day of week"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:650
+msgid "Default Session Duration (minutes)"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:166
+#: includes/admin/class-zeko-mentor-admin.php:167
+#: includes/admin/class-zeko-mentor-admin.php:1156
+msgid "Demo Data"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1566
+msgid "Demo data generated successfully."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1108
+msgid "Demo data generated:"
+msgstr ""
+
+#. translators: %s: error message
+#: includes/public/class-zeko-mentor-ajax.php:1575
+#, php-format
+msgid "Demo generation failed: %s"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:397
+#: includes/privacy/class-zeko-mentor-privacy.php:693
+msgid "Description"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:502 templates/mentor-apply.php:20
+#: templates/mentor-browse.php:35
+msgid "Design"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:272
+#: includes/class-zeko-mentor-ecosystem.php:385 templates/mentor-matches.php:70
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:510
+msgid "Draft"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:196
+#: includes/class-zeko-mentor-ecosystem.php:408
+msgid "Due:"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:542
+#: templates/program-single.php:94 templates/program-single.php:156
+msgid "Duration"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:326
+msgid "Duration (minutes)"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:709
+msgid "Duration (weeks)"
+msgstr ""
+
+#: templates/mentor-apply.php:27
+msgid "Education"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:658
+msgid "Enable Session Reminders"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:729
+#: templates/program-single.php:154
+msgid "End date"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:252
+#: includes/privacy/class-zeko-mentor-privacy.php:322
+msgid "End time"
+msgstr ""
+
+#: templates/program-single.php:101
+msgid "Ends"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:496
+#: includes/public/class-zeko-mentor-public.php:116
+#: templates/program-list.php:44 templates/program-single.php:117
+msgid "Enrolled"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:595
+msgid "Enrolled at"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:842
+msgid "Enrolled in program"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:872
+msgid "Enrolled in program!"
+msgstr ""
+
+#: templates/program-single.php:158
+msgid "Enrolled on"
+msgstr ""
+
+#: templates/program-single.php:107
+msgid "Enrollment"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:237
+#: includes/admin/class-zeko-mentor-admin.php:540
+#: includes/admin/class-zeko-mentor-admin.php:1006
+#: templates/mentor-browse.php:30
+msgid "Expertise"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:697
+msgid "Expertise area"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:142
+msgid "Expertise areas"
+msgstr ""
+
+#. translators: %s: list of matching skills
+#: includes/class-zeko-mentor-matching.php:212
+#, php-format
+msgid "Expertise in %s"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:504
+msgid "Expires at"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:767
+msgid "Export Data"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:773
+msgid "Export all mentor profiles, sessions, reviews, and goals as CSV files."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:771
+msgid "Export as CSV"
+msgstr ""
+
+#: templates/mentor-profile.php:159
+msgid "Face-to-face mentoring over a secure video link."
+msgstr ""
+
+#. translators: %s: error message
+#: includes/public/class-zeko-mentor-ajax.php:1611
+#, php-format
+msgid "Failed to clear demo data: %s"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:393
+#: includes/admin/class-zeko-mentor-admin.php:530
+msgid "Filter"
+msgstr ""
+
+#: templates/mentor-browse.php:29
+msgid "Filters"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:505 templates/mentor-apply.php:23
+msgid "Finance"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:712
+#: includes/class-zeko-mentor-ecosystem.php:359 templates/mentor-browse.php:24
+#: zeko-mentor.php:391 zeko-mentor.php:424
+msgid "Find a Mentor"
+msgstr ""
+
+#: templates/mentor-profile.php:173
+msgid "Flexible Slots"
+msgstr ""
+
+#: templates/program-list.php:58 templates/program-single.php:34
+msgid "Free"
+msgstr ""
+
+#: templates/mentor-availability.php:20
+msgid "Friday"
+msgstr ""
+
+#: templates/program-list.php:46 templates/program-single.php:70
+msgid "Full"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:594
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1121
+#: includes/admin/class-zeko-mentor-admin.php:1163
+#: includes/admin/class-zeko-mentor-admin.php:1166
+msgid "Generate Demo Data"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1157
+msgid ""
+"Generate sample data to test the Zeko Mentor plugin, or clear all demo data "
+"to start fresh."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1102
+msgid "Generating..."
+msgstr ""
+
+#: templates/mentor-apply.php:155
+msgid "GitHub"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:174
+msgid "GitHub URL"
+msgstr ""
+
+#: templates/mentor-profile.php:283
+msgid "Go to Dashboard"
+msgstr ""
+
+#: includes/class-zeko-mentor-notifications.php:272
+msgid "Goal Achieved!"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:637
+msgid "Goal could not be updated."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:604
+msgid "Goal created!"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:628
+#: includes/public/class-zeko-mentor-ajax.php:665
+msgid "Goal not found."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:645
+msgid "Goal updated."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1187
+msgid "Goals with progress entries"
+msgstr ""
+
+#: includes/class-zeko-mentor-emails.php:266
+msgid "Grow with a mentor, one step at a time."
+msgstr ""
+
+#: templates/mentor-calendar.php:17
+msgid "Has availability"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:150
+#: templates/mentor-apply.php:51
+msgid "Headline"
+msgstr ""
+
+#. translators: %s: notification user name
+#: includes/class-zeko-mentor-emails.php:130
+#, php-format
+msgid ""
+"Hi %1$s,\n"
+"\n"
+"A mentorship session has been cancelled.\n"
+"\n"
+"Date: %2$s\n"
+"Time: %3$s\n"
+"\n"
+"If you have questions, please reach out."
+msgstr ""
+
+#. translators: 1: user name, 2: goal title
+#: includes/class-zeko-mentor-emails.php:200
+#, php-format
+msgid ""
+"Hi %1$s,\n"
+"\n"
+"Congratulations! You've achieved your goal: \"%2$s\"\n"
+"\n"
+"Keep up the great work on your mentorship journey!"
+msgstr ""
+
+#. translators: 1: mentee name, 2: session date, 3: session time, 4: topic
+#: includes/class-zeko-mentor-emails.php:63
+#, php-format
+msgid ""
+"Hi %1$s,\n"
+"\n"
+"You have a new mentorship session booked!\n"
+"\n"
+"Mentee: %1$s\n"
+"Date: %2$s\n"
+"Time: %3$s\n"
+"Topic: %4$s\n"
+"\n"
+"Please confirm or reschedule."
+msgstr ""
+
+#. translators: 1: mentee name, 2: mentor name, 3: session topic
+#: includes/class-zeko-mentor-emails.php:99
+#, php-format
+msgid ""
+"Hi %1$s,\n"
+"\n"
+"Your mentorship session with %2$s has been completed.\n"
+"\n"
+"Topic: %3$s\n"
+"\n"
+"We'd love to hear your feedback! Please take a moment to leave a review."
+msgstr ""
+
+#. translators: %s: mentor name
+#: includes/class-zeko-mentor-emails.php:166
+#, php-format
+msgid ""
+"Hi %s,\n"
+"\n"
+"You've received a new review!\n"
+"\n"
+"Check your mentor dashboard for details."
+msgstr ""
+
+#: templates/mentor-apply.php:112
+msgid "Hourly Rate"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:182
+msgid "Hourly rate"
+msgstr ""
+
+#: templates/mentor-apply.php:25
+msgid "Human Resources"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:400
+#: includes/admin/class-zeko-mentor-admin.php:537
+msgid "ID"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:672
+msgid "In-App Notification Preferences"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:263
+#: templates/program-single.php:68
+msgid "Inactive"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1555
+#: includes/public/class-zeko-mentor-ajax.php:1592
+msgid "Invalid nonce."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1213
+msgid "Invalid notification."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1116
+msgid "Invalid parameters."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:514
+msgid "Invalid slots data."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1288
+msgid "Invalid timezone."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1454
+msgid "Invalid user."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1495
+msgid "Invalid year_month format."
+msgstr ""
+
+#. translators: 1: program price. 2: currency
+#. translators: %s: program price
+#: templates/program-list.php:70 templates/program-single.php:130
+msgid "Join Program"
+msgstr ""
+
+#: templates/session-detail.php:108
+msgid "Join Video Call"
+msgstr ""
+
+#: templates/program-list.php:70
+#, php-format
+msgid "Join for %1$s %2$s"
+msgstr ""
+
+#: templates/program-single.php:130
+#, php-format
+msgid "Join for %s"
+msgstr ""
+
+#. translators: %s: program price
+#: templates/program-single.php:126
+#, php-format
+msgid "Join for %s — paid once from your Zeko wallet."
+msgstr ""
+
+#: templates/program-list.php:25
+msgid "Join group mentoring cohorts to learn alongside peers."
+msgstr ""
+
+#: templates/program-single.php:190
+msgid "Joined"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1265
+msgid "Just now"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:158
+#: templates/mentor-apply.php:90
+msgid "Languages"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:504 templates/mentor-apply.php:22
+msgid "Leadership"
+msgstr ""
+
+#: templates/program-single.php:202
+msgid "Leave Program"
+msgstr ""
+
+#: templates/session-detail.php:152
+msgid "Leave a Review"
+msgstr ""
+
+#: templates/program-single.php:54
+msgid "Led by"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:941
+msgid "Left the program."
+msgstr ""
+
+#: templates/mentor-apply.php:26
+msgid "Legal"
+msgstr ""
+
+#: templates/mentor-apply.php:151
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:170
+msgid "LinkedIn URL"
+msgstr ""
+
+#: templates/mentor-inbox.php:16
+msgid "Loading conversations..."
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:154
+#: templates/mentor-apply.php:86
+msgid "Location"
+msgstr ""
+
+#: templates/mentor-profile.php:275
+msgid "Log In"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:207
+#: includes/class-zeko-mentor-ecosystem.php:419
+msgid "Log Progress"
+msgstr ""
+
+#: templates/program-list.php:67 templates/program-single.php:111
+msgid "Log in to Join"
+msgstr ""
+
+#: templates/mentor-profile.php:274
+msgid "Log in to book a session with this mentor."
+msgstr ""
+
+#: templates/program-single.php:110
+msgid "Log in to join this program and access the member area."
+msgstr ""
+
+#: templates/mentor-availability.php:10
+msgid "Manage Your Availability"
+msgstr ""
+
+#: templates/mentor-dashboard.php:20
+msgid "Manage your sessions, availability, and mentees."
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:209
+#: includes/class-zeko-mentor-ecosystem.php:421
+msgid "Mark Achieved"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:784
+msgid "Mark all as read"
+msgstr ""
+
+#: templates/session-detail.php:140
+msgid "Mark as Completed"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1218
+msgid "Marked as read."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:503 templates/mentor-apply.php:21
+#: templates/mentor-browse.php:36
+msgid "Marketing"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:692
+msgid "Match Accepted"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:662
+msgid "Match Refresh Interval (days)"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:751
+msgid "Match accepted!"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:730
+msgid "Match dismissed."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:726
+#: includes/public/class-zeko-mentor-ajax.php:747
+msgid "Match not found."
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:492
+msgid "Match reasons"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1185
+msgid "Match suggestions between mentors and mentees"
+msgstr ""
+
+#: templates/mentor-apply.php:143
+msgid "Max Concurrent Mentees"
+msgstr ""
+
+#: templates/mentor-browse.php:39
+msgid "Max Rate"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:701
+msgid "Max members"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:198
+msgid "Max mentees"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:342
+msgid "Meeting URL"
+msgstr ""
+
+#: templates/session-detail.php:114
+msgid "Meeting link available 15 minutes before the session."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:928
+msgid "Member left program"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:502 templates/mentor-profile.php:88
+msgid "Member since"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:541
+#: templates/program-single.php:95 templates/program-single.php:180
+msgid "Members"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:402
+#: includes/public/class-zeko-mentor-public.php:327
+#: templates/session-detail.php:90
+msgid "Mentee"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:480
+msgid "Mentee user ID"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:102
+#: includes/admin/class-zeko-mentor-admin.php:401
+#: includes/admin/class-zeko-mentor-admin.php:539
+#: includes/admin/class-zeko-mentor-admin.php:949
+#: includes/class-zeko-mentor-ecosystem.php:560
+#: includes/public/class-zeko-mentor-public.php:326
+#: templates/session-detail.php:86
+msgid "Mentor"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:894
+msgid "Mentor Analytics"
+msgstr ""
+
+#: includes/class-zeko-mentor-notifications.php:241
+msgid "Mentor Application Approved!"
+msgstr ""
+
+#: includes/class-zeko-mentor-notifications.php:242
+msgid "Mentor Application Update"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:998
+msgid "Mentor Applications"
+msgstr ""
+
+#: templates/mentor-dashboard.php:19
+msgid "Mentor Dashboard"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1074
+msgid "Mentor application submitted"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:212
+msgid "Mentor has reached maximum mentee capacity."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:205
+msgid "Mentor is not available."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:154
+#: includes/public/class-zeko-mentor-public.php:569
+msgid "Mentor not found."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:159
+msgid "Mentor profile not found."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1184
+msgid "Mentor profiles with expertise, bio, rates, and availability"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:484
+#: includes/privacy/class-zeko-mentor-privacy.php:638
+msgid "Mentor user ID"
+msgstr ""
+
+#. translators: %s: verification status
+#: includes/public/class-zeko-mentor-ajax.php:1137
+#, php-format
+msgid "Mentor verification %s"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:112
+#: includes/admin/class-zeko-mentor-admin.php:113
+msgid "Mentors"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:68
+#: includes/class-zeko-mentor-ecosystem.php:634
+#: includes/class-zeko-mentor-ecosystem.php:696 zeko-mentor.php:391
+msgid "Mentorship"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:714 templates/program-list.php:24
+#: zeko-mentor.php:432
+msgid "Mentorship Programs"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:534
+#: includes/class-zeko-mentor-emails.php:102
+#: includes/public/class-zeko-mentor-public.php:328
+#: templates/session-detail.php:55 zeko-mentor.php:231 zeko-mentor.php:239
+#: zeko-mentor.php:255 zeko-mentor.php:263
+msgid "Mentorship Session"
+msgstr ""
+
+#: includes/class-zeko-mentor-emails.php:127
+msgid "Mentorship session cancelled"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:544
+msgid "Message"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1007
+msgid "Message sent."
+msgstr ""
+
+#: zeko-mentor.php:448
+msgid "Messages"
+msgstr ""
+
+#: templates/mentor-browse.php:41
+msgid "Min Rating"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:748
+msgid "Missing"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1349
+msgid "Missing date/time fields."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:536
+#: includes/public/class-zeko-mentor-ajax.php:1490
+msgid "Missing parameters."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:994
+msgid "Missing required fields."
+msgstr ""
+
+#: templates/mentor-availability.php:16
+msgid "Monday"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:930
+msgid "Month"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:183
+#: includes/class-zeko-mentor-ecosystem.php:393
+msgid "My Goals"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:715
+msgid "My Matches"
+msgstr ""
+
+#: templates/mentor-matches.php:30 zeko-mentor.php:436
+msgid "My Mentor Matches"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:713
+#: includes/class-zeko-mentor-ecosystem.php:80
+#: templates/mentor-dashboard.php:22 zeko-mentor.php:391 zeko-mentor.php:428
+msgid "My Mentorship"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:484
+msgid "My Programs"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:170
+msgid "My Sessions"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:236
+msgid "Name"
+msgstr ""
+
+#: includes/class-zeko-mentor-notifications.php:217
+msgid "New Mentee Match"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:688
+msgid "New Review"
+msgstr ""
+
+#: includes/class-zeko-mentor-notifications.php:179
+msgid "New Review Received"
+msgstr ""
+
+#: includes/class-zeko-mentor-notifications.php:68
+msgid "New Session Booked"
+msgstr ""
+
+#. translators: %s: mentee name
+#: includes/class-zeko-mentor-emails.php:57
+#, php-format
+msgid "New booking from %s"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:857
+msgid "New program member"
+msgstr ""
+
+#. translators: %s: reviewer name
+#: includes/class-zeko-mentor-emails.php:160
+#, php-format
+msgid "New review from %s"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:928
+msgid "No Zeko Mentor data was found for this user."
+msgstr ""
+
+#: templates/program-list.php:29
+msgid "No active programs right now. Check back soon!"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:115
+msgid "No available times on this date."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:933
+msgid "No data yet."
+msgstr ""
+
+#: templates/mentor-matches.php:99
+msgid "No match suggestions yet."
+msgstr ""
+
+#: templates/program-single.php:182
+msgid "No members yet."
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:153
+msgid "No mentor sessions yet."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:245
+msgid "No mentors found."
+msgstr ""
+
+#: templates/mentor-browse.php:56
+msgid "No mentors found. Check back soon!"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:952
+msgid "No mentors yet."
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:783
+msgid "No notifications yet."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1033
+msgid "No pending applications."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:550
+msgid "No programs found."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:413
+msgid "No sessions found."
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:314
+#: includes/class-zeko-mentor-ecosystem.php:358
+msgid "No upcoming sessions."
+msgstr ""
+
+#: includes/class-zeko-mentor-emails.php:67
+msgid "Not specified"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:440
+msgid "Note"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:338
+#: templates/session-detail.php:125
+msgid "Notes"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:595
+msgid "Notifications"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:693
+msgid "Notify mentors when a mentee accepts a match"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:677
+msgid "Notify mentors when a session is booked"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:689
+msgid "Notify mentors when they receive a review"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:681
+msgid "Notify the other party when a session is cancelled"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:685
+msgid "Notify the other party when a session is completed"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:549
+msgid "Only mentors can manage availability."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:508
+msgid "Only mentors can set availability."
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:505 templates/program-list.php:63
+msgid "Open Program"
+msgstr ""
+
+#: templates/program-single.php:72
+msgid "Open for enrollment"
+msgstr ""
+
+#: templates/mentor-apply.php:140
+msgid ""
+"Optional per-session prices. Leave a field at 0 to use your hourly rate for "
+"that session type."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:723
+msgid "Page"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:596
+msgid "Pages"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:616
+msgid "Pages recreated successfully."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:407
+msgid "Payment"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:829
+msgid "Payment failed. Please check your wallet balance and try again."
+msgstr ""
+
+#: includes/class-zeko-mentor-rest.php:545
+#: includes/public/class-zeko-mentor-ajax.php:311
+msgid "Payment failed. Please check your wallet balance."
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:354
+msgid "Payment status"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:375
+msgid "Pending"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1001
+msgid "Pending Applications"
+msgstr ""
+
+#: templates/mentor-profile.php:174
+msgid "Pick the time that works best for you."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:646
+msgid "Platform Fee (%)"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:199
+msgid "Please choose a date and an available time slot."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:113
+msgid "Please choose a date first."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1031
+msgid "Please fill all required fields."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:480
+msgid "Please log in to apply as a mentor."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:131
+msgid "Please log in to browse mentors."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:544
+msgid "Please log in to manage availability."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:527
+msgid "Please log in to view messages."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:511
+msgid "Please log in to view session details."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:434
+msgid "Please log in to view your dashboard."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:462
+msgid "Please log in to view your matches."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:185
+#: includes/public/class-zeko-mentor-ajax.php:360
+#: includes/public/class-zeko-mentor-ajax.php:402
+#: includes/public/class-zeko-mentor-ajax.php:444
+#: includes/public/class-zeko-mentor-ajax.php:502
+#: includes/public/class-zeko-mentor-ajax.php:553
+#: includes/public/class-zeko-mentor-ajax.php:589
+#: includes/public/class-zeko-mentor-ajax.php:618
+#: includes/public/class-zeko-mentor-ajax.php:656
+#: includes/public/class-zeko-mentor-ajax.php:720
+#: includes/public/class-zeko-mentor-ajax.php:741
+#: includes/public/class-zeko-mentor-ajax.php:776
+#: includes/public/class-zeko-mentor-ajax.php:886
+#: includes/public/class-zeko-mentor-ajax.php:985
+#: includes/public/class-zeko-mentor-ajax.php:1018
+#: includes/public/class-zeko-mentor-ajax.php:1169
+#: includes/public/class-zeko-mentor-ajax.php:1203
+#: includes/public/class-zeko-mentor-ajax.php:1226
+#: includes/public/class-zeko-mentor-ajax.php:1282
+#: includes/public/class-zeko-mentor-ajax.php:1322
+#: includes/public/class-zeko-mentor-ajax.php:1387
+#: includes/public/class-zeko-mentor-ajax.php:1446
+msgid "Please log in."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:114
+msgid "Please select an available time slot."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:707
+msgid "Plugin Pages"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:781
+msgid "Plugin Version"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:543
+#: includes/privacy/class-zeko-mentor-privacy.php:713
+#: templates/program-single.php:96
+msgid "Price"
+msgstr ""
+
+#: templates/session-detail.php:132
+msgid "Private Notes"
+msgstr ""
+
+#: templates/mentor-profile.php:127
+msgid "Profile Views"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:578
+msgid "Profile saved."
+msgstr ""
+
+#: templates/program-single.php:140
+msgid "Program Access"
+msgstr ""
+
+#: templates/program-single.php:92
+msgid "Program Details"
+msgstr ""
+
+#: templates/program-list.php:65 templates/program-single.php:119
+msgid "Program Full"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:583
+msgid "Program ID"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:515
+msgid "Program Management"
+msgstr ""
+
+#: templates/program-single.php:114
+msgid "Program Owner"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:785
+msgid "Program not available."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:895
+#: templates/program-single.php:17
+msgid "Program not found."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:130
+#: includes/admin/class-zeko-mentor-admin.php:131
+#: includes/admin/class-zeko-mentor-admin.php:226
+msgid "Programs"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:925
+msgid "Programs you created remain visible with the creator link removed."
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:215
+#: includes/class-zeko-mentor-ecosystem.php:427
+msgid "Progress Log"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:683
+msgid "Progress logged."
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:654
+msgid "Public"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:744
+msgid "Published"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:273
+msgid "Quick Stats"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:238
+#: includes/admin/class-zeko-mentor-admin.php:949
+#: includes/admin/class-zeko-mentor-admin.php:1008
+msgid "Rate"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:239
+#: includes/admin/class-zeko-mentor-admin.php:949
+#: includes/privacy/class-zeko-mentor-privacy.php:358
+#: includes/privacy/class-zeko-mentor-privacy.php:444
+#: includes/privacy/class-zeko-mentor-privacy.php:642
+msgid "Rating"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:461
+msgid "Rating must be 1-5."
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:548
+msgid "Read"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:540
+msgid "Receiver user ID"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:232
+msgid "Recent Mentors"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:329
+msgid "Recent Reviews"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:141
+msgid "Recent Sessions"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:759
+msgid "Recreate Missing Pages"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1026
+msgid "Reject"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:242
+#: includes/class-zeko-mentor-ecosystem.php:453
+msgid "Related Courses"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1172
+msgid ""
+"Removes all demo users, profiles, sessions, and related data from the "
+"database."
+msgstr ""
+
+#: templates/mentor-apply.php:101 templates/mentor-profile.php:123
+msgid "Response Time"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:166
+msgid "Response time"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:222
+#: includes/admin/class-zeko-mentor-admin.php:930
+msgid "Revenue"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:910
+msgid "Revenue ("
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:928
+msgid "Revenue by Month"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:286
+msgid "Revenue per Session"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:485
+msgid "Review posted"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:491
+msgid "Review submitted!"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:650
+msgid "Review text"
+msgstr ""
+
+#: templates/session-detail.php:159
+msgid "Review title..."
+msgstr ""
+
+#: templates/mentor-profile.php:181
+msgid "Reviews"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1188
+msgid "Reviews for completed sessions"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:587
+msgid "Role"
+msgstr ""
+
+#: templates/mentor-apply.php:24
+msgid "Sales"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1190
+msgid "Sample messages between mentors and mentees"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1186
+msgid "Sample sessions (pending, confirmed, completed, cancelled)"
+msgstr ""
+
+#: templates/mentor-availability.php:21
+msgid "Saturday"
+msgstr ""
+
+#: templates/mentor-availability.php:38
+msgid "Save Availability"
+msgstr ""
+
+#: templates/mentor-apply.php:28
+msgid "Science"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:488
+msgid "Score"
+msgstr ""
+
+#: templates/mentor-browse.php:25
+msgid "Search mentors..."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:603
+#: includes/admin/class-zeko-mentor-admin.php:622
+#: includes/public/class-zeko-mentor-ajax.php:130
+#: includes/public/class-zeko-mentor-ajax.php:528
+#: includes/public/class-zeko-mentor-ajax.php:949
+#: includes/public/class-zeko-mentor-ajax.php:1207
+#: includes/public/class-zeko-mentor-ajax.php:1277
+#: includes/public/class-zeko-mentor-ajax.php:1476
+msgid "Security check failed."
+msgstr ""
+
+#: templates/mentor-inbox.php:21
+msgid "Select a conversation to start chatting."
+msgstr ""
+
+#: templates/mentor-apply.php:35
+msgid "Select..."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:232
+msgid "Selected time is not within the mentor's available hours."
+msgstr ""
+
+#: templates/mentor-inbox.php:28
+msgid "Send"
+msgstr ""
+
+#: templates/program-single.php:169
+msgid "Send Message"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:536
+msgid "Sender user ID"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1118
+#: includes/admin/class-zeko-mentor-admin.php:1139
+msgid "Server error. Check the PHP error log for details."
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:146
+#: includes/class-zeko-mentor-ecosystem.php:174
+#: includes/class-zeko-mentor-ecosystem.php:320
+#: includes/class-zeko-mentor-ecosystem.php:365
+#: includes/class-zeko-mentor-notifications.php:98
+#: includes/class-zeko-mentor-notifications.php:132
+msgid "Session"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:676
+msgid "Session Booked"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:680
+#: includes/class-zeko-mentor-notifications.php:104
+msgid "Session Cancelled"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:684
+#: includes/class-zeko-mentor-notifications.php:138
+msgid "Session Completed"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:277
+msgid "Session Completion Rate"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:717 zeko-mentor.php:444
+msgid "Session Details"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:634
+msgid "Session ID"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:382
+msgid "Session Management"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:654
+msgid "Session Reminder (hours before)"
+msgstr ""
+
+#: templates/mentor-profile.php:258
+msgid "Session Type"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:327
+msgid "Session booked"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:346
+#: includes/public/class-zeko-mentor-public.php:110
+msgid "Session booked successfully!"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:385
+msgid "Session cancelled"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:391
+#: includes/public/class-zeko-mentor-public.php:111
+msgid "Session cancelled."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1340
+msgid "Session cannot be rescheduled."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:427
+msgid "Session completed"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:433
+msgid "Session marked as completed."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:369
+#: includes/public/class-zeko-mentor-ajax.php:1329
+#: templates/session-detail.php:17 templates/session-detail.php:23
+msgid "Session not found."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:336
+msgid "Session requested! Complete checkout to confirm your booking."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1369
+msgid "Session rescheduled"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1375
+msgid "Session rescheduled successfully."
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:310
+msgid "Session type"
+msgstr ""
+
+#. translators: %s: mentor name
+#: includes/class-zeko-mentor-emails.php:93
+#, php-format
+msgid "Session with %s completed — Leave a review!"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:121
+#: includes/admin/class-zeko-mentor-admin.php:122
+#: includes/admin/class-zeko-mentor-admin.php:930
+#: includes/admin/class-zeko-mentor-admin.php:949
+#: includes/class-zeko-mentor-ecosystem.php:299
+#: includes/class-zeko-mentor-ecosystem.php:596
+msgid "Sessions"
+msgstr ""
+
+#: templates/mentor-profile.php:115
+msgid "Sessions Completed"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:161
+msgid "Sessions as Mentee"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:133
+msgid "Sessions as Mentor"
+msgstr ""
+
+#: templates/mentor-calendar.php:18
+msgid "Sessions booked"
+msgstr ""
+
+#: templates/mentor-availability.php:11
+msgid "Set your weekly recurring availability slots below."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:157
+#: includes/admin/class-zeko-mentor-admin.php:158
+msgid "Settings"
+msgstr ""
+
+#: templates/session-detail.php:160
+msgid "Share your experience..."
+msgstr ""
+
+#: templates/mentor-apply.php:45
+msgid ""
+"Share your expertise and help others grow. Fill out the form below to apply."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:724
+msgid "Shortcode"
+msgstr ""
+
+#: templates/mentor-apply.php:147
+msgid "Social Links"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:112
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:725
+#: templates/program-single.php:151
+msgid "Start date"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:248
+#: includes/privacy/class-zeko-mentor-privacy.php:318
+msgid "Start time"
+msgstr ""
+
+#: templates/program-single.php:98
+msgid "Starts"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:240
+#: includes/admin/class-zeko-mentor-admin.php:406
+#: includes/admin/class-zeko-mentor-admin.php:544
+#: includes/admin/class-zeko-mentor-admin.php:725
+#: includes/admin/class-zeko-mentor-admin.php:1042
+#: includes/privacy/class-zeko-mentor-privacy.php:330
+#: includes/privacy/class-zeko-mentor-privacy.php:405
+#: includes/privacy/class-zeko-mentor-privacy.php:496
+#: includes/privacy/class-zeko-mentor-privacy.php:591
+#: includes/privacy/class-zeko-mentor-privacy.php:721
+msgid "Status"
+msgstr ""
+
+#: templates/mentor-apply.php:166
+msgid "Submit Application"
+msgstr ""
+
+#: templates/session-detail.php:161
+msgid "Submit Review"
+msgstr ""
+
+#: templates/mentor-calendar.php:27
+msgid "Subscribe to Calendar"
+msgstr ""
+
+#: templates/mentor-calendar.php:26
+msgid "Subscribe your calendar to get automatic session updates"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:261
+#: includes/class-zeko-mentor-ecosystem.php:374
+msgid "Suggested Mentors"
+msgstr ""
+
+#: templates/mentor-matches.php:33
+msgid "Suggestions"
+msgstr ""
+
+#: templates/mentor-availability.php:22
+msgid "Sunday"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:121
+msgid "Switch between views below."
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:401
+msgid "Target date"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:500 templates/mentor-apply.php:18
+#: templates/mentor-browse.php:33
+msgid "Technology"
+msgstr ""
+
+#: templates/mentor-apply.php:69
+msgid "Tell us about your experience and what you can help with..."
+msgstr ""
+
+#: includes/class-zeko-mentor-notifications.php:245
+msgid ""
+"Thank you for your application. Unfortunately, we were unable to approve it "
+"at this time."
+msgstr ""
+
+#: templates/session-detail.php:111
+msgid "The call will open in a new tab. Please allow camera/microphone access."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:708
+msgid ""
+"These pages are created automatically. You can recreate them if they were "
+"deleted."
+msgstr ""
+
+#: templates/mentor-profile.php:279
+msgid "This is you"
+msgstr ""
+
+#: templates/mentor-profile.php:280
+msgid "This is your public mentor profile. Bookings appear in your dashboard."
+msgstr ""
+
+#: templates/program-single.php:124
+msgid "This program is free to join."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:795
+msgid "This program is full."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:758
+msgid ""
+"This will create any missing pages. Existing pages will not be modified. "
+"Continue?"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1126
+msgid "This will delete ALL demo data and users. Continue?"
+msgstr ""
+
+#: templates/mentor-availability.php:19
+msgid "Thursday"
+msgstr ""
+
+#: templates/session-detail.php:75
+msgid "Time"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:202
+#: includes/privacy/class-zeko-mentor-privacy.php:256
+msgid "Timezone"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1307
+msgid "Timezone saved."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:538
+#: includes/privacy/class-zeko-mentor-privacy.php:393
+#: includes/privacy/class-zeko-mentor-privacy.php:646
+#: includes/privacy/class-zeko-mentor-privacy.php:689
+msgid "Title"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:134
+#: includes/public/class-zeko-mentor-ajax.php:1482
+msgid "Too many requests. Please slow down."
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:947
+msgid "Top Mentors"
+msgstr ""
+
+#. translators: %s: rating
+#: includes/class-zeko-mentor-matching.php:221
+#, php-format
+msgid "Top-rated mentor (%s/5)"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:404
+#: includes/privacy/class-zeko-mentor-privacy.php:334
+#: templates/mentor-profile.php:253
+msgid "Topic"
+msgstr ""
+
+#. translators: 1: topic, 2: mentor name, 3: mentee name, 4: meeting URL
+#: includes/public/class-zeko-mentor-public.php:343
+#, php-format
+msgid ""
+"Topic: %1$s\n"
+"Mentor: %2$s\n"
+"Mentee: %3$s\n"
+"Meeting: %4$s"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:206
+msgid "Total Mentors"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:214
+#: includes/admin/class-zeko-mentor-admin.php:914
+msgid "Total Sessions"
+msgstr ""
+
+#: templates/mentor-dashboard.php:23
+msgid "Track your sessions, goals, and mentor matches."
+msgstr ""
+
+#: templates/mentor-availability.php:17
+msgid "Tuesday"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:178
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:405
+#: templates/session-detail.php:82
+msgid "Type"
+msgstr ""
+
+#: templates/mentor-inbox.php:27
+msgid "Type your message..."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:374
+#: includes/public/class-zeko-mentor-ajax.php:411
+#: includes/public/class-zeko-mentor-ajax.php:632
+#: includes/public/class-zeko-mentor-ajax.php:669
+#: includes/public/class-zeko-mentor-ajax.php:1108
+#: includes/public/class-zeko-mentor-ajax.php:1335
+#: includes/public/class-zeko-mentor-ajax.php:1551
+#: includes/public/class-zeko-mentor-ajax.php:1588
+msgid "Unauthorized."
+msgstr ""
+
+#. translators: %s: session topic
+#: zeko-mentor.php:230 zeko-mentor.php:254
+#, php-format
+msgid "Upcoming Session Reminder: %s"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:311
+#: includes/class-zeko-mentor-ecosystem.php:355
+msgid "Upcoming Sessions"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:737
+msgid "Updated at"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1005
+#: includes/admin/class-zeko-mentor-admin.php:1041
+#: includes/class-zeko-mentor-notifications.php:300
+msgid "User"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:210
+msgid "Verification notes"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:206
+msgid "Verification status"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:259
+#: includes/class-zeko-mentor-ecosystem.php:562
+#: includes/privacy/class-zeko-mentor-privacy.php:190
+#: templates/mentor-browse.php:70 templates/mentor-matches.php:58
+msgid "Verified"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1043
+msgid "Verified Date"
+msgstr ""
+
+#: templates/mentor-profile.php:63
+msgid "Verified Mentor"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:292
+msgid "Verified Ratio"
+msgstr ""
+
+#: includes/class-zeko-mentor-matching.php:227
+msgid "Verified mentor"
+msgstr ""
+
+#: templates/mentor-browse.php:48
+msgid "Verified only"
+msgstr ""
+
+#: templates/mentor-profile.php:232
+msgid "Video"
+msgstr ""
+
+#: templates/mentor-profile.php:158 templates/mentor-profile.php:260
+msgid "Video Call"
+msgstr ""
+
+#: templates/mentor-apply.php:128
+msgid "Video Rate"
+msgstr ""
+
+#: templates/mentor-matches.php:91 templates/program-single.php:171
+msgid "View Profile"
+msgstr ""
+
+#: templates/mentor-browse.php:98
+msgid "View Profile & Book"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:785
+msgid "View all"
+msgstr ""
+
+#: includes/class-zeko-mentor-emails.php:285
+msgid "Visit site"
+msgstr ""
+
+#: templates/mentor-availability.php:18
+msgid "Wednesday"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:1180
+msgid "What Gets Created"
+msgstr ""
+
+#: templates/mentor-profile.php:254
+msgid "What do you want to discuss?"
+msgstr ""
+
+#: templates/mentor-profile.php:154
+msgid "What to Expect"
+msgstr ""
+
+#: templates/mentor-apply.php:36 templates/mentor-profile.php:37
+msgid "Within 1 hour"
+msgstr ""
+
+#: templates/mentor-apply.php:38 templates/mentor-profile.php:39
+msgid "Within 2 days"
+msgstr ""
+
+#: templates/mentor-apply.php:37 templates/mentor-profile.php:38
+msgid "Within 24 hours"
+msgstr ""
+
+#: templates/mentor-apply.php:39 templates/mentor-profile.php:40
+msgid "Within a week"
+msgstr ""
+
+#: templates/mentor-apply.php:161
+msgid "X / Twitter"
+msgstr ""
+
+#: templates/mentor-apply.php:97
+msgid "Years of Experience"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:162
+msgid "Years of experience"
+msgstr ""
+
+#. translators: %s: goal title
+#: includes/class-zeko-mentor-notifications.php:275
+#, php-format
+msgid "You achieved \"%s\". Well done!"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:488
+msgid "You are already a verified mentor!"
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:1036
+msgid "You are already a verified mentor."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-ajax.php:790
+msgid "You are already enrolled in this program."
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:120
+msgid "You are both a Mentor and Mentee"
+msgstr ""
+
+#: templates/program-single.php:116
+msgid "You are enrolled in this program."
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:487
+msgid "You are not enrolled in any programs yet."
+msgstr ""
+
+#: templates/session-detail.php:31
+msgid "You do not have access to this session."
+msgstr ""
+
+#. translators: 1: mentee name, 2: date, 3: time, 4: topic, 5: meeting URL
+#. translators: 1: mentor name, 2: date, 3: time, 4: topic, 5: meeting URL
+#: zeko-mentor.php:235 zeko-mentor.php:259
+#, php-format
+msgid ""
+"You have an upcoming session with %1$s on %2$s at %3$s.\n"
+"\n"
+"Topic: %4$s\n"
+"Meeting URL: %5$s"
+msgstr ""
+
+#. translators: %s: program title
+#: includes/public/class-zeko-mentor-ajax.php:845
+#, php-format
+msgid "You joined \"%s\". Access the program member area here."
+msgstr ""
+
+#: templates/program-single.php:113
+msgid "You run this program. The member area below is available to you."
+msgstr ""
+
+#: includes/public/class-zeko-mentor-public.php:494
+msgid "Your application is under review. We'll notify you once approved."
+msgstr ""
+
+#: templates/program-single.php:148
+msgid "Your cohort"
+msgstr ""
+
+#: templates/program-single.php:163
+msgid "Your mentor"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:922
+msgid ""
+"Your published reviews remain visible on mentor profiles, with your name "
+"removed."
+msgstr ""
+
+#: templates/session-detail.php:105
+msgid "Your session is ready!"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:101
+msgid "Zeko Mentor"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:629
+msgid "Zeko Mentor Settings"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:49
+#: includes/privacy/class-zeko-mentor-privacy.php:62
+msgid "Zeko Mentor data"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:240
+msgid "Zeko Mentor — Availability"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:201
+msgid "Zeko Mentor — Dashboard"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:286
+msgid "Zeko Mentor — Engagements"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:138
+msgid "Zeko Mentor — Mentor profile"
+msgstr ""
+
+#: includes/privacy/class-zeko-mentor-privacy.php:612
+msgid "Zeko Mentor — Public ledger"
+msgstr ""
+
+#: includes/class-zeko-mentor-notifications.php:61
+msgid "a mentorship session"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:498 templates/program-list.php:49
+msgid "by"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:910
+msgid "d)"
+msgstr ""
+
+#: includes/admin/class-zeko-mentor-admin.php:699
+msgid "days (notifications older than this are auto-deleted)"
+msgstr ""
+
+#: templates/mentor-apply.php:91
+msgid "e.g. English, French"
+msgstr ""
+
+#: templates/mentor-apply.php:87
+msgid "e.g. Lagos, Nigeria"
+msgstr ""
+
+#: templates/mentor-apply.php:52
+msgid "e.g. Senior Product Manager helping you break into tech leadership"
+msgstr ""
+
+#: templates/mentor-matches.php:64
+msgid "match"
+msgstr ""
+
+#: templates/session-detail.php:78
+msgid "min"
+msgstr ""
+
+#: templates/mentor-profile.php:72 templates/mentor-profile.php:188
+msgid "reviews"
+msgstr ""
+
+#: templates/mentor-profile.php:76
+msgid "session"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:577
+msgid "sessions"
+msgstr ""
+
+#: includes/class-zeko-mentor-ecosystem.php:500 templates/program-list.php:56
+#: templates/program-single.php:94 templates/program-single.php:156
+msgid "weeks"
+msgstr ""
+
+#: templates/mentor-profile.php:141
+msgid "years of experience"
+msgstr ""
+
+#: zeko-mentor.php:236
+msgid "your mentee"
+msgstr ""
+
+#: zeko-mentor.php:260
+msgid "your mentor"
+msgstr ""
+
+#: templates/mentor-profile.php:122
+msgid "—"
+msgstr ""
+

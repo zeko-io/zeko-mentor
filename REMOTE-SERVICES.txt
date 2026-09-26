@@ -1,0 +1,27 @@
+REMOTE SERVICES — Zeko Mentor
+=============================
+
+Zeko Mentor performs no server-side outbound HTTP requests. The only external
+service is the Jitsi video-call room URLs it generates.
+
+-------------------------------------------------------------------------------
+1. Jitsi Meet (client-side)
+-------------------------------------------------------------------------------
+Room URL pattern: https://meet.jit.si/<room>
+  - REST booking handler: https://meet.jit.si/zeko-session-<md5 of session
+    date/time + mentor/user ids> (includes/class-zeko-mentor-rest.php lines
+    426-427)
+  - AJAX booking handler: https://meet.jit.si/ZekoMentor-<mentor_id>-
+    <mentee_id>-<random token> (includes/public/class-zeko-mentor-ajax.php
+    line 221)
+Data sent: only when a mentor/mentee opens the room link in their browser do
+           they connect to meet.jit.si (a public Jitsi instance operated by
+           the Jitsi/8x8 project or your self-hosted alternative); Jitsi then
+           receives the visitor's IP address, audio/video streams, and any
+           name entered in the Jitsi lobby per Jitsi's privacy policy.
+           Zeko Mentor's server never contacts meet.jit.si itself — the URL is
+           generated locally and shared in the dashboard/booking UI.
+When     : only when a booking includes a video session and the user joins the
+           room link.
+
+No other outbound requests are made by Zeko Mentor.
